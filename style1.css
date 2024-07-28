@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main {
+    font-size: 20px;
+    min-height: 100vh;
+    background: url('nneeww.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    pointer-events: auto;
+    transition: .3s ease;
+}
+
+body {
+    color: rgb(255, 255, 255);
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
